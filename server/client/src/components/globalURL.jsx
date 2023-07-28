@@ -1,2 +1,2 @@
-const globalURL = "http://localhost:3000/";
+const globalURL = "http://mercadofacil.us/";
  export default globalURL;

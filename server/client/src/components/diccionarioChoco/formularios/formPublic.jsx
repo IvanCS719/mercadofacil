@@ -156,7 +156,7 @@ const Formulario = () => {
                             //como_se_usa_Ing: '',
                             titleEjemplo: '',
                             EjemploChoco: '',
-                            id_categoria: 1,
+                            id_categoria: 4,
                             id_tipo: 1,
                             id_region: 1,
                             colaborador: '',
