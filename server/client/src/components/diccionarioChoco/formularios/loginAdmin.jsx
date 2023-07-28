@@ -61,7 +61,7 @@ export default function Example() {
 
     return (
         <>
-            <div className='w-full min-h-screen'>
+            <div className='w-full min-h-screen text-center'>
                 <NavBar mfLogo={"MercadoFácil.mx"} mfLink={"https://mercadofacil.mx/"} cola={"Salir"} colaLink={"/diccionario-choco"}
                 />
 

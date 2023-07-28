@@ -99,7 +99,8 @@ export default function Card() {
 
         <div className='w-full min-h-screen text-center'>
             <NavBar mfLogo={"MercadoFácil.mx"} mfLink={"https://mercadofacil.mx/"} cola={"Colaborar"} colaLink={"/diccionario-choco/colaborar"}
-                verDicc={"Inicio"} verDiccLink={'/diccionario-choco'} masInfo={"Saber más"} masInfoLink={"https://mercadofacil.mx/las-palabras-del-choco/"} />
+                 masInfo={"Saber más"} masInfoLink={"https://mercadofacil.mx/las-palabras-del-choco/"} 
+                inicio={"/"}/>
 
                 <div className="text-center">
                     <img src="diccionarioChoco/Encabezado.png" alt="Banner"/>

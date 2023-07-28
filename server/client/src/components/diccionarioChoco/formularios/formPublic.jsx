@@ -136,7 +136,7 @@ const Formulario = () => {
     return (
         <div className='w-full min-h-screen text-center'>
             <NavBar mfLogo={"MercadoFácil.mx"} mfLink={"https://mercadofacil.mx/"} cola={"Volver"} colaLink={"/diccionario-choco"}
-                verDicc={"Inicio"} verDiccLink={'/diccionario-choco'} masInfo={"Saber más"} masInfoLink={"https://mercadofacil.mx/las-palabras-del-choco/"} />
+                verDicc={"Ver Diccionario"} verDiccLink={'/diccionario-choco'} masInfo={"Saber más"} masInfoLink={"https://mercadofacil.mx/las-palabras-del-choco/"} />
 
             <div className='w-full px-4 mb-2 md:px-6 flex flex-col items-center'>
                 <p className='mb-4 mt-4 font-semibold text-mfColor text-3xl'>¡Gracias por contribuir en la mejora de este Diccionario!</p>

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 
 const Navbar = ({ rol, mfLogo, mfLink, verDicc, verDiccLink, tar, CS, mfLogoAd, mfLinkAd, cola, colaLink,
-  masInfo, masInfoLink, VA, VC}) => {
+  masInfo, masInfoLink, VA, VC, inicio}) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleNavbar = () => {
@@ -39,7 +39,7 @@ const Navbar = ({ rol, mfLogo, mfLink, verDicc, verDiccLink, tar, CS, mfLogoAd, 
             <div className="hidden md:flex md:w-full justify-between">
               <div className="ml-10 flex items-center space-x-4">
 
-
+              {inicio ? <Link to={inicio} className='text-white font-medium hover:border-b-2'>Inicio</Link> : null}
                 {verDicc ? <Link to={verDiccLink} target={tar ? tar : ''} className='text-white font-medium hover:border-b-2'>{verDicc}</Link> : null}
 
                 {mfLogoAd ? <a href={mfLinkAd} className="text-white font-medium hover:border-b-2">

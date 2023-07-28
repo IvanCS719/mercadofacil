@@ -98,7 +98,7 @@ export default function Card() {
     return (
         <div className='w-full min-h-screen text-center'>
             <NavBar mfLogo={"MercadoFácil.mx"} mfLink={"https://mercadofacil.mx/"}
-                verDicc={"Home"} verDiccLink={'/diccionario-choco-en'} masInfo={"Learn more"} masInfoLink={"https://mercadofacil.mx/las-palabras-del-choco/"} />
+                verDicc={"Home"} verDiccLink={'/'} masInfo={"Learn more"} masInfoLink={"https://mercadofacil.mx/las-palabras-del-choco/"} />
             <div className="text-center">
                 <img src="diccionarioChoco/Encabezado.png" alt="Banner"/>
             </div>
