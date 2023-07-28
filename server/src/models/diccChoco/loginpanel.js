@@ -4,7 +4,7 @@ import bcrypt from 'bcrypt';
 
 const saltRounds = 10;
 
-export const LoginPanel = sequelize.define('diccChoco_LoginPanel', {
+export const LoginPanel = sequelize.define('LoginPanel', {
   id: {
     type: DataTypes.INTEGER,
     primaryKey: true,

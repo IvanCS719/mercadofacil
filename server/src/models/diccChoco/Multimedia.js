@@ -2,7 +2,7 @@
 import {sequelize} from '../../database/database.js';
 //import { Palabras } from './Palabras.js';
 
-export const Multimedia = sequelize.define('diccChoco_Multimedia', {
+export const Multimedia = sequelize.define('Multimedia', {
     id:{
         type: DataTypes.INTEGER,
         primaryKey: true,

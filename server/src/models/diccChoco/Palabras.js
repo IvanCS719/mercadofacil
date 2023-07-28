@@ -14,7 +14,7 @@ import { Colaborador } from '../../models/diccChoco/Colaborador.js';
 
 
 
-export const Palabras = sequelize.define('diccChoco_Palabras', {
+export const Palabras = sequelize.define('Palabras', {
     id: {
         type: DataTypes.INTEGER,
         primaryKey: true,

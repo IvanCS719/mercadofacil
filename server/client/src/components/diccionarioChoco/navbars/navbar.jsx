@@ -109,6 +109,7 @@ const Navbar = ({ rol, mfLogo, mfLink, verDicc, verDiccLink, tar, CS, mfLogoAd, 
       {isOpen && (
         <div className="md:hidden" id="mobile-menu">
           <div className="flex flex-col items-center gap-2 py-3">
+          {inicio ? <Link to={inicio} className='text-white font-medium hover:border-b-2'>Inicio</Link> : null}
           {verDicc ? <Link to={verDiccLink} className='text-white font-medium hover:border-b-2'>{verDicc}</Link> : null}
           {mfLogoAd ? <a href={mfLinkAd} className="text-white font-medium hover:border-b-2">
                   {mfLogoAd}

@@ -3,7 +3,7 @@ import {sequelize} from '../../database/database.js';
 import { CategoriaIng } from '../../models/diccChoco/CategoriaIngle.js';
 //import { Palabras } from './Palabras.js';
 
-export const Categoria = sequelize.define('diccChoco_Categoria', {
+export const Categoria = sequelize.define('Categoria', {
     id:{
         type: DataTypes.INTEGER,
         primaryKey: true,
@@ -27,6 +27,7 @@ CategoriaIng.belongsTo(Categoria, {
 
   const categoriaData = [
     
+    { categoria: 'Sin categoría', categoriaIng: 'no category' },
       { categoria: 'Sustantivo', categoriaIng: 'Noun' },
       { categoria: 'Sustantivo común', categoriaIng: 'Common noun' },
       { categoria: 'Sustantivo propio', categoriaIng: 'Proper noun' },
@@ -94,8 +95,7 @@ CategoriaIng.belongsTo(Categoria, {
       { categoria: 'Numeral multiplicativo', categoriaIng: 'Multiplicative numeral' },
       { categoria: 'Numeral fraccionario', categoriaIng: 'Fractional numeral' },
   
-      { categoria: 'Infinitivo', categoriaIng: 'Infinitive' },
-      { categoria: 'Sin categoría', categoriaIng: 'no category' }
+      { categoria: 'Infinitivo', categoriaIng: 'Infinitive' }
     ];
   
   // Sincroniza los modelos con la base de datos y crea las tablas

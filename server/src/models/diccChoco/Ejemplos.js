@@ -2,7 +2,7 @@ import {DataTypes} from 'sequelize';
 import {sequelize} from '../../database/database.js';
 //import { Palabras } from './Palabras.js';
 
-export const Ejemplos = sequelize.define('diccChoco_Ejemplos', {
+export const Ejemplos = sequelize.define('Ejemplos', {
     id:{
         type: DataTypes.INTEGER,
         primaryKey: true,
