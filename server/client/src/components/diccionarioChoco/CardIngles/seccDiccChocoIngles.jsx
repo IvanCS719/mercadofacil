@@ -100,7 +100,7 @@ export default function Card() {
             <NavBar mfLogo={"MercadoFácil.mx"} mfLink={"https://mercadofacil.mx/"}
                 verDicc={"Home"} verDiccLink={'/'} masInfo={"Learn more"} masInfoLink={"https://mercadofacil.mx/las-palabras-del-choco/"} />
             <div className="text-center">
-                <img src="diccionarioChoco/Encabezado.png" alt="Banner"/>
+                <img src={`${globalURL}/diccChoco/assets/Encabezado.png`} alt="Banner"/>
             </div>
 
             <div className='w-full px-4 my-4 md:px-6  mt-5'>

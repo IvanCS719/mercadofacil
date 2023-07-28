@@ -103,7 +103,7 @@ export default function Card() {
                 inicio={"/"}/>
 
                 <div className="text-center">
-                    <img src="diccionarioChoco/Encabezado.png" alt="Banner"/>
+                    <img src={`${globalURL}/diccChoco/assets/Encabezado.png`} alt="Banner"/>
                 </div>
 
             <div className='w-full px-4 md:px-6 mt-5'>

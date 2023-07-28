@@ -48,7 +48,7 @@ function MemoTarjetas({ memoTarjeta, animacion, handleMemoClick, start, idRuta }
         <div className="memo-tarjeta" onClick={() => (!memoTarjeta.tarjetaGirada && !animacion) && handleMemoClick(memoTarjeta)}>
             {/*si la propieda tarjetaGirada es true, se le aplica la clase para girarla con css*/}
             <div className={`memo-tarjeta-inner ${start ? 'start' : null} ${memoTarjeta.tarjetaGirada && 'memo-tarjeta-Girada'}`}>
-                <div className="memo-tarjeta-front" style={{ backgroundImage: `url(imgFrontPreview/petate.jpg`}}>
+                <div className="memo-tarjeta-front" style={{ backgroundImage: `url(${globalURL}/memorama/assets/imgFrontPreview/petate.jpg`}}>
                 
                 </div>
                 <div className="memo-tarjeta-back" style={{ backgroundImage: `url(${rutaImg})`}}>

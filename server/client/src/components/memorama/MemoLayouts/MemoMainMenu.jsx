@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useState, useEffect, useRef } from 'react';
+import globalURL from '../../globalURL';
 
 function MemoMainMenu() {
  
@@ -9,7 +10,7 @@ function MemoMainMenu() {
     <main className='w-full min-h-screen flex items-center justify-between md:justify-around lg:justify-between flex-col p-2 font-fontGeneral'>
       <div>
         <p className='font-bold text-5xl text-center mb-2'>MEMORAMA</p>
-        <img src="memorama/logoMainMenu.png" alt="" className='w-96' />
+        <img src={`${globalURL}/memorama/assets/logoMainMenu.png`} alt="" className='w-96' />
       </div>
       <div className='flex flex-col gap-3 text-2xl font-semibold'>
         <Link to="/memorama/unjugador"><button className='bg-blue-500 text-white w-60 py-3 rounded-2xl flex justify-center'>1 JUGADOR</button></Link>
