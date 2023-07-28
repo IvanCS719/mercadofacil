@@ -1,5 +1,6 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import PagInicio from './components/inicioM/PagInicio'
 //Archivos del diccionario Choco
 import Card from './components/diccionarioChoco/Card/seccDiccChoco';
 import CardIngles from './components/diccionarioChoco/CardIngles/CardsIngles';
@@ -17,10 +18,14 @@ import MemoSelectNumCards from './components/memorama/MemoLayouts/MemoSelectNumC
 import MemoMainMenu from './components/memorama/MemoLayouts/MemoMainMenu.jsx';
 
 
+
 function App() {
   return (
 
     <Routes>
+      <Route path="/" element={<PagInicio />} />
+      
+
       {/*Rutas para el diccionario del choco*/}
       <Route path='/diccionario-choco' element={<Card></Card>} />
       <Route path='/diccionario-choco/login' element={<LoginAdmin></LoginAdmin>} />
