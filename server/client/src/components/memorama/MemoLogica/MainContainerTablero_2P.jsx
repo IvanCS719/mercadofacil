@@ -201,6 +201,7 @@ function MainContainerTablero_2P() {
 
   const handleResetGameClick = () => {
     establecerNumeroCartas(selectedNumCards);
+    setTarjetaSeleccionada(null);
     iniciarCartasTablero();
     setTarjetasEncontradas(0);
     setPuntos(0);

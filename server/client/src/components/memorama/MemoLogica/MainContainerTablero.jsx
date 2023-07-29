@@ -224,6 +224,7 @@ function MemoLogica() {
 
   const handleResetGameClick = () => {
     establecerNumeroCartas(selectedNumCards);
+    setTarjetaSeleccionada(null);
     iniciarCartasTablero();
     setTarjetasEncontradas(0);
     setPuntos(0);
